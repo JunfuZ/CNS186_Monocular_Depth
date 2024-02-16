@@ -6,6 +6,7 @@ Papers:
   - Code: https://github.com/mrharicot/monodepth
 
 Proposal:
+
 •Framework: Unsupervised CNN (Encoder / Decoder type architecture) trained with stereo images.
 Predicts disparity maps between L/R stereo pairs to produce predicted opposite image in the pair (towards depth estimation calculation)
 
@@ -17,8 +18,8 @@ Predicts disparity maps between L/R stereo pairs to produce predicted opposite i
 
 
 Suggestions:
-label all slides and pages in the report
-downsampling the raw image first to get low-resolution images
-train the model with low-resolution images and then scale the resolution up step by step
-HPC at ANB may be useful. 
-Oisin Mac Aodha (second author): used to be at Caltech (can ask if we need help)
+- label all slides and pages in the report
+- downsampling the raw image first to get low-resolution images
+- train the model with low-resolution images and then scale the resolution up step by step
+- HPC at ANB may be useful. 
+- Oisin Mac Aodha (second author): used to be at Caltech (can ask if we need help)
