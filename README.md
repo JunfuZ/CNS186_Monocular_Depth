@@ -14,3 +14,11 @@ Predicts disparity maps between L/R stereo pairs to produce predicted opposite i
 •Datasets: KITTI dataset; Make3D, NYU-Depth V2(if needed)
 
 •Expected Results: Achieve comparable results with reference paper and other existing supervised methods for depth estimation
+
+
+Suggestions:
+label all slides and pages in the report
+downsampling the raw image first to get low-resolution images
+train the model with low-resolution images and then scale the resolution up step by step
+HPC at ANB may be useful. 
+Oisin Mac Aodha (second author): used to be at Caltech (can ask if we need help)
