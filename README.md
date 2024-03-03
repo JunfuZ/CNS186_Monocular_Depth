@@ -23,3 +23,7 @@ Suggestions:
 - train the model with low-resolution images and then scale the resolution up step by step
 - HPC at ANB may be useful. 
 - Oisin Mac Aodha (second author): used to be at Caltech (can ask if we need help)
+
+Added files in junfu folder
+- I write the loss, data_loader, transforms, and utils files
+- I almost don't change much about the main code and data_loader
