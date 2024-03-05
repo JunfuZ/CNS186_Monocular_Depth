@@ -8,11 +8,11 @@ class KittiLoader(Dataset):
     def __init__(self, root_dir, mode, transform=None):
         dir = os.path.join(root_dir, 'left/')
 
-        self.imagepath = sorted([os.path.join(dir, fname) for fname in os.listdir(dir)])
+        self.imagepath = sorted([os.path.join(dir, I_name) for I_name in os.listdir(dir)])
         
         if mode == 'train':
             right_dir = os.path.join(root_dir, 'right/')
-            self.right_paths = sorted([os.path.join(right_dir, fname) for fname in os.listdir(right_dir)])
+            self.right_paths = sorted([os.path.join(right_dir, I_name) for I_name in os.listdir(right_dir)])
             
             if len(self.right_paths) != len(self.imagepath):
                 print("Error: The number of left and right images is not the same.")
